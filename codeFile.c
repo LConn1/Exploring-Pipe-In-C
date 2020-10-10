@@ -1,6 +1,5 @@
 /*
   Leland Conn
-  CS 3305 Assignment 2
   October 6, 2020
 */
 
