@@ -4,7 +4,7 @@ The purpose of this project is to get experience reading and writing to the pipe
 The C program will accept three strings from the user as command line arguments (for example, X, Y and Z). The program will create a parent and child where the
 parent process will read X and the child process will read Y and Z. The child process will concatenate Y and Z to generate Y’. child process will send Y’ to
 parent process by communicating through a pipe (i.e., shared memory). Then, the parent process will concatenate X and Y’ and output the resulting string.
-The expected output from your program should look like the following for the arguments “the” “ dog” and “ is brown”:
+The expected output from the program looks like the following for the arguments “the” “ dog” and “ is brown”:
 
 1. A pipe is created for communication between parent (PID 2255) and child
 2. parent (PID 2255) created a child (PID 2256)
